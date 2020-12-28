@@ -1,0 +1,208 @@
+*, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;letter-spacing: 1.5px;list-style: none;text-decoration: none}
+@font-face{
+    font-family: "oriya";
+    src: url(../fonts/Oriya\ MN.ttc);
+    font-display: swap;
+}
+body{
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #86bed8 100%);line-height:1.5;text-transform:none;font-size:16px;color:#fff;font-family: "oriya"}
+a{
+    text-decoration:none;
+    color:#fff
+}
+
+/* ----開始！---- */
+
+.wrap{
+    width: 100%;
+}
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-pic img{
+    width: 100%;
+    object-fit: cover;
+}
+.story-banner{
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+.banner-words-group{
+    border: 1px solid seagreen;
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    z-index: 1;
+}
+
+.banner-big-group h1{
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3.5px;
+
+}
+.first-pic-words{
+    text-shadow: 0.1em 0.1em 0.2em black;
+    padding: 30px;
+}
+.second-pic-words{
+    
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+.download-btn{
+    cursor: pointer;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 250px;
+    color: #1E262D;
+    background-color: #fff;
+    margin: 0 auto;   
+    transition: all .5s;
+    box-shadow: 0 10px 15px rgba(36, 37, 38, 0.08);
+}
+.download-btn:hover{
+    transform: translateY(-15%);
+    background-color: #1d262d;
+    color: snow;
+}
+
+
+/* 步驟の第二區域 */
+.first-title{
+    margin: 100px;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.steps-1{
+    cursor: pointer;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(109, 109, 109, 0.466);
+    position: relative;
+    transition: all .3s !important;
+    transform: translateY(0%);
+    
+}
+.steps-1:hover{
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.342);
+    transform: translateY(-10%) ;
+}
+
+.step-num{
+    width: 40px;
+    height: 40px;
+    background-color: #E9D098;
+    position: absolute;
+}
+.step-num h3{
+    transform: translate(42%,20%);
+    
+}
+.s-01{
+    width: 300px;
+    height: 300px;
+}
+.s-01 h5{
+    color: white;
+    
+    
+    text-align: center;
+    padding: 7px;
+    position: absolute;
+    /* top: 30px; */
+}
+.steps-btn{
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    background-color: #fff;
+    color: #707070;
+    position: absolute;
+    bottom: -25px;
+    left: -50px;
+    transform: translateX(50%);
+    
+}  
+.steps-1 p{
+    transform: translateY(65%);
+}
+.steps-1{
+    margin: 30px;
+}
+
+.steps-group{
+    
+    
+    /* border: turquoise 1px solid; */
+    display: flex;
+    justify-content: space-around;
+}
+.third-area{
+    margin: 100px 0px 100px 0px;
+    /* border: rgb(73, 29, 12) 1px solid; */
+    width: 100%;
+    display: flex;
+}
+.third-area-words{
+    background-color: #fff;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.third-area-words h1{
+    text-align: right;
+    padding-right: 40px;
+}
+.third-area-words h5{
+    /* border: olive 1px solid; */
+    padding: 10px;
+    text-align: center;
+}
+
+.third-pic{
+    width: 650px;
+}
+
+.download-group{
+    /* border: rgb(37, 37, 18) 1px solid; */
+    align-self: center;
+
+    
+}
+
+
+
+
+
+/* 向上標籤與footer */
+.top{
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;    
+    animation-name: top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 99;
+    /* display: none; */
+}
+
+.top img{
+    width: 80px;
+}
+.top i{
+    
+    position: absolute;
+    top: -40px;
+    left: 29px;
+}

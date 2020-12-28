@@ -1,0 +1,478 @@
+@media screen and (max-width: 320px){
+    .word {
+        width: 100px;
+    }
+    .text p{
+        font-size: 16px;
+    }
+    .text{
+        position: absolute;
+        /* top: 0; */
+        top: 46%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+    .coupon-title{
+        
+        font-size: 30px;
+        margin: 50px;
+       
+    }
+    .steps-title{
+
+        font-size: 30px;
+        margin: 50px;
+    }
+    .how-it-title{
+
+        font-size: 30px;
+        margin: 50px;
+    }
+
+    .coupon-little{
+        background-color: rgba(165, 165, 165, 0.171);
+        font-size: 40px;
+    }
+    .coupon-group div{
+        margin: 25px;
+        /* border: thistle 1px solid; */
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .coupon-words{
+
+        padding: 10px;
+        flex-direction: column;
+        line-height: 30px;
+        letter-spacing: 5px;
+
+        background-color: #fff;
+    
+    }
+    .coupon-btn{
+        padding: 3px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .coupon-group img{
+        width: 200px;
+    }
+    .coupon-words{
+        padding: 5px;
+        flex-direction: column;
+        line-height: 80px;
+        letter-spacing: 5px;
+
+        text-align: center;
+        font-size: 14px;
+    
+    }
+    .coupon-words h2,.coupon-words p{
+        line-height: 35px;
+    }
+    .white-squre{
+        padding: 25px 30px;
+        color: #333;
+        background-color: #fff;
+        width: 400px;
+        position: absolute;
+        bottom: -300px;
+        right: 0px;
+    }
+    .fix-img{
+        width: 50%;
+        height: 500px;
+        background-image: url(../main-img/photo-1539981979235-86d7f364f6eb.jpeg);
+        /* background-size: cotain; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: -150px 0px;
+    }
+    .right-block{
+        
+        background-color: #fff;
+        width: 200px;
+        display: flex;
+        
+       /* background-color: #fff; */
+    }
+    .right-block div{
+    
+        display: inline-block;
+        
+        padding: 10px 20px;
+        background-color: rgb(84, 150, 211);
+    }
+    .right-word{
+        font-size: 14px;
+        text-align: center;
+        width: 50%;
+    }
+
+    .how-it-pic img{
+        /* width: 300px; */
+        display: none;
+    }
+    .how-it-btn{
+        margin: 350px 0;
+    }
+    .top img{
+        width: 44px;
+    }
+    .top{
+        /* border: sienna 1px solid; */
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up{
+        width: 25px;
+        /* border: sienna 1px solid; */
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 575px){
+    .text p{
+        font-size: 20px;
+    }
+    .text{
+        position: absolute;
+        /* top: 0; */
+        top: 46%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+    }
+    .word {
+        width: 111px;
+    }
+    
+    .coupon-title{
+        font-size: 30px;
+        margin: 50px;
+    }
+    .coupon-group img{
+        width: 200px;
+    }
+    .steps-title{
+
+        font-size: 30px;
+        margin: 50px;
+    }
+    .how-it-title{
+
+        font-size: 30px;
+        margin: 50px;
+    }
+
+    .coupon-little{
+        background-color: rgba(165, 165, 165, 0.171);
+        font-size: 40px;
+    }
+    .coupon-group div{
+        margin: 25px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .coupon-words{
+
+        padding: 10px;
+        flex-direction: column;
+        line-height: 30px;
+        letter-spacing: 5px;
+
+        background-color: #fff;
+    
+    }
+    .coupon-btn{
+        padding: 3px;
+        font-size: 14px;
+        text-align: center;
+    }
+   
+    .coupon-words{
+        padding: 0px;
+        flex-direction: column;
+        line-height: 40px;
+        letter-spacing: 5px;
+        margin: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .coupon-words h2,.coupon-words p{
+        line-height: 35px;
+    }
+    .white-squre{
+        padding: 25px 30px;
+        color: #333;
+        background-color: #fff;
+        width: 100%;
+        position: static;  
+    }
+    .fix-img{
+        width: 50%;
+        height: 500px;
+        background-image: url(../main-img/photo-1539981979235-86d7f364f6eb.jpeg);
+        /* background-size: cotain; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: -200px 0px;
+    }
+    .right-block{
+        
+        background-color: #fff;
+        width: 150px;
+        display: flex;
+    }
+    .right-block div{
+    
+        display: inline-block;
+        
+        padding: 10px 15px;
+        background-color: rgb(84, 150, 211);
+    }
+    .right-word{
+        font-size: 14px;
+        text-align: center;
+        width: 55%;
+    }
+
+    .how-it-pic img{
+        width: 321px;
+    }
+    .how-it-btn{
+        margin: 50px 0;
+    }
+    .top img{
+        width: 44px;
+    }
+    .top{
+        /* border: sienna 1px solid; */
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up{
+        width: 25px;
+        /* border: sienna 1px solid; */
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .text p{
+        font-size: 25px;
+    }
+    .coupon-title{
+        
+        font-size: 30px;
+        margin: 50px;
+       
+    }
+    .steps-title{
+
+        font-size: 30px;
+        margin: 50px;
+    }
+    .how-it-title{
+
+        font-size: 30px;
+        margin: 50px;
+    }
+
+    .coupon-little{
+        background-color: rgba(165, 165, 165, 0.171);
+        font-size: 40px;
+    }
+    .coupon-group div{
+        margin: 25px;
+        /* border: thistle 1px solid; */
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .coupon-words{
+
+        padding: 10px;
+        flex-direction: column;
+        background-color: #fff;
+    
+    }
+    .coupon-words h2,.coupon-words p{
+        line-height: 35px;
+    }
+    .coupon-btn{
+        padding: 3px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .coupon-group img{
+        width: 300px;
+    }
+    .coupon-words{
+        padding: 5px;
+        flex-direction: column;
+        line-height: 80px;
+        letter-spacing: 5px;
+
+        text-align: center;
+        font-size: 14px;
+    
+    }
+    .white-squre{
+        padding: 25px 30px;
+        color: #333;
+        background-color: #fff;
+        width: 600px;
+        position: static;
+        /* bottom: 0px; */
+        /* right: 0px; */
+    }
+    .fix-img{
+        width: 50%;
+        height: 500px;
+        background-image: url(../main-img/photo-1539981979235-86d7f364f6eb.jpeg);
+        /* background-size: cotain; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: -100px 0px;
+    }
+    .right-block{
+        
+        background-color: #fff;
+        width: 200px;
+        display: flex;
+        
+       /* background-color: #fff; */
+    }
+    .right-block div{
+    
+        display: inline-block;
+        
+        padding: 10px 20px;
+        background-color: rgb(84, 150, 211);
+    }
+    .right-word{
+        font-size: 14px;
+        text-align: center;
+        width: 50%;
+    }
+    .top img {
+        width: 44px;
+    }
+
+    .top i {
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up {
+        width: 25px;
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .how-it-btn{
+        margin-top: 50px;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .text p{
+        font-size: 30px;
+    }
+    .coupon-little{
+        background-color: rgba(165, 165, 165, 0.171);
+        font-size: 40px;
+    }
+    .coupon-group div{
+        margin: 25px;
+        /* border: thistle 1px solid; */
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .coupon-words{
+
+        padding: 10px;
+        flex-direction: column;
+        line-height: 30px;
+        letter-spacing: 5px;
+
+        background-color: #fff;
+    
+    }
+    .coupon-btn{
+        padding: 3px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .coupon-group img{
+        width: 300px;
+    }
+    .coupon-words{
+        padding: 5px;
+        flex-direction: column;
+        line-height: 80px;
+        letter-spacing: 5px;
+
+        text-align: center;
+        font-size: 14px;
+    
+    }
+
+
+    .white-squre{
+        padding: 25px 30px;
+        color: #333;
+        background-color: #fff;
+        width: 600px;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+
+
+    }
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .coupon-group img{
+        width: 400px;
+    }
+    .coupon-words{
+        padding: 5px;
+        flex-direction: column;
+        line-height: 80px;
+        letter-spacing: 5px;
+    
+    }
+}

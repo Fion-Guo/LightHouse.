@@ -1,0 +1,220 @@
+@media screen and (max-width: 320px){
+
+    .first-title{
+        margin: 50px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 8px;
+    }
+    .top img{
+        width: 44px;
+    }
+    .top{
+        /* border: sienna 1px solid; */
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up{
+        width: 25px;
+        /* border: sienna 1px solid; */
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .third-area{
+        display: inline-block;
+        position: relative;
+    }
+    .third-area-words h1{
+        text-align: center;
+        padding: 30px;
+        color: #fff;
+    }
+    .third-area-words h5{
+        color: #fff;
+        line-height: 30px;
+    }
+
+    .third-area-words{
+        background-color: rgba(133, 131, 131, 0.384);
+        
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .third-pic{
+        width: 100%;
+    }
+
+    .banner-words-group{
+        width: 100%;
+    }
+    .banner-big-group h1{
+        font-size: 18px;
+        margin: 15px 10px;
+    }
+    .download-btn{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 575px){
+
+    .first-title{
+        margin: 50px;
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 8px;
+    }
+    .top img{
+        width: 44px;
+    }
+    .top{
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+        }
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up{
+        width: 25px;
+        /* border: sienna 1px solid; */
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .download-btn{
+        font-size: 25px;
+        /* padding: 5px 5px; */
+    }
+    .third-area{
+        display: inline-block;
+        position: relative;
+    }
+    .third-area-words h1{
+        text-align: center;
+        padding: 30px;
+        color: #fff;
+    }
+    .third-area-words h5{
+        color: #fff;
+        line-height: 30px;
+    }
+
+    .third-area-words{
+        background-color: rgba(133, 131, 131, 0.384);
+        
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .third-pic{
+        width: 100%;
+    }
+
+    .download-group{
+        padding: 30px;
+        display: flex;  
+        /* align-self: center; */
+        justify-content: center;
+
+    }
+    .banner-words-group{
+        width: 100%;
+    }
+    .banner-big-group h1{
+        font-size: 35px;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .top img{
+        width: 44px;
+    }
+    .top{
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+        }
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up{
+        width: 25px;
+        /* border: sienna 1px solid; */
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .third-area{
+        display: inline-block;
+        position: relative;
+    }
+    .third-area-words h1{
+        text-align: center;
+        padding: 30px;
+        color: #fff;
+    }
+    .third-area-words h5{
+        color: #fff;
+        line-height: 30px;
+    }
+
+    .third-area-words{
+        background-color: rgba(133, 131, 131, 0.384);
+        
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .third-pic{
+        width: 100%;
+    }
+
+    .download-group{
+        padding: 30px;
+        display: flex;  
+        /* align-self: center; */
+        justify-content: center;
+
+    }
+    .banner-words-group{
+        width: 100%;
+    }
+    .banner-big-group h1{
+        font-size: 40px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .banner-big-group h1{
+        font-size: 40px;
+    }
+    .banner-words-group{
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .banner-big-group h1{
+        font-size: 40px;
+    }
+    
+    
+}

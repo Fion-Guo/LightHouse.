@@ -1,0 +1,576 @@
+@media screen and (max-width: 320px){
+    .sp-art-area h1{
+        font-size: 20px;
+    }
+    .salmon-pic img{
+        width: 250px;
+    }
+
+    .menu-1 h3{
+        padding: 10px;
+        text-shadow: 0.1em 0.1em 0.2em rgb(122, 122, 122);
+        position: absolute;
+        top: 100px;
+        bottom: 280px;
+        right: 0px;
+        left: auto;
+        width: 70%;
+        background-color: hsla(0,0%,0%,.5);
+
+        font-size: 12px;
+    }
+
+    .label-team-1 h2{
+        width: 300px;
+    }
+    .label-team-1{
+        position: relative;
+        top: 30px;
+    }
+
+    .top{
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top img{
+        width: 44px;
+    }
+
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up {
+        width: 25px;
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .menu-1-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-1-1 h1,.menu-1-1 h4{
+        text-align: center;
+
+        
+    }
+    .dc-pic img{
+        width: 300px;
+    }
+    .label-team-2 h4{
+        color: slategrey;
+    }
+    .menu-1-1 h4{
+        color: black;
+    }
+    .menu-1-1 h1{
+        font-size: 20px;
+    }
+    .menu-1 h3{
+        bottom: auto;
+    }
+    .lighthouse-footer{
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 575px){
+
+    .salmon-view-btn{
+        display: none;
+    }
+
+    .sp-art div{
+        width: 500px;
+        margin-bottom: 100px;
+        text-align: center;
+        
+    }
+    .sp-art p{
+       
+        color: dimgrey;
+    } 
+
+    .sp-art img{
+        width: 400px;   
+        font-size: 0;
+        /* margin-bottom: 30px; */
+        
+    }
+    
+    .sp-art-area h1{
+       
+        margin: 100px 50px 0px 50px;
+        /* font-size: 40px; */
+    }
+    .sp-art-area h1{
+        font-size: 30px;
+    }
+    .salmon-pic img{
+        width: 250px;
+    }
+    .label-team-1 img{
+        width: 200px;
+    }
+    .label-team-1 h2{
+        width: 150px;
+        position: absolute;
+        top: 35px;
+        right: 25px;
+        font-size: 16px;
+    }
+
+
+
+    .menu-1 h3{
+        padding: 10px;
+        text-shadow: 0.1em 0.1em 0.2em rgb(122, 122, 122);
+        position: absolute;
+        top: 100px;
+        /* bottom: 280px; */
+        bottom: auto;
+        right: 0px;
+        left: auto;
+        width: 70%;
+        background-color: hsla(0,0%,0%,.5);
+
+        font-size: 12px;
+    }
+
+    
+    .label-team-1{
+        position: relative;
+        top: 30px;
+    }
+
+
+    .top{
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top img{
+        width: 44px;
+    }
+
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up {
+        width: 25px;
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .menu-1-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .menu-1-1 h1,.menu-1-1 h4{
+        text-align: center;
+    }
+    .dc-pic img{
+        width: 300px;
+    }
+    .label-team-2 h4{
+        color: slategrey;
+    }
+    .menu-1-1 h4{
+        color: black;
+    }
+    .menu-1-1 h1{
+        font-size: 20px;
+    }
+    .cooking-title{
+        margin: 100px 50px 50px 50px;
+        font-size: 30px;
+    }
+
+
+    
+    .diary-area{
+        /* border: rgb(155, 93, 36) 1px solid; */
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+    }
+    
+    
+    .cards{
+        /* border: blue 1px solid; */
+        background-color: rgba(146, 146, 146, 0.5);
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 15px;
+        box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+    }
+    
+    .cards img{
+        width: 80%;
+    }
+    .diary-words{
+        padding: 5px;
+    }
+    
+    .card_1,.card_2,.card_3{
+        --width: 429px;
+        --time: 0.7s;
+    
+        position: relative;
+        display: inline-block;
+        /* height: 1em; */
+        /* padding: 1em; */
+    
+        color: rgba(235, 216, 216, 0.781);
+        /* background: #222; */
+        overflow: hidden;
+    }
+    .cards_2::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        right: 0px;
+        background: rgba(2, 1, 1, 0.6);
+        height: 400px;
+        z-index: -1;
+    }
+    
+    .card_1 span ,.card_2 span ,.card_3 span {
+        display: none;
+    }
+    
+    .card_1:hover span {
+        display: none;
+        
+    }
+    .card_2:hover span {
+        display: none;
+        
+    }
+    
+    .card_3:hover span {
+        display: none;
+        
+    }
+    .lighthouse-footer{
+        font-size: 9px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    
+    .sp-art div{
+        /* border: olive 1px solid; */
+        width: 500px;
+        margin-bottom: 100px;
+        text-align: center;
+        
+    }
+    .sp-art p{
+     
+        color: dimgrey;
+    } 
+
+    .sp-art img{
+        width: 400px;   
+        font-size: 0;
+        /* margin-bottom: 30px; */
+        
+    }
+
+
+    .sp-art-area h1{
+        margin: 100px 50px 0px 50px;
+        font-size: 40px;
+    }
+    .cooking-title{
+        font-size: 40px;
+        margin: 100px 50px 50px 50px;
+    }
+    .menu-1-1{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;   
+    }
+
+    .menu-1 h3{
+        text-shadow: 0.1em 0.1em 0.2em rgb(122, 122, 122);
+        position: absolute;
+        bottom: 300px;
+        right: 20px;
+    }
+
+    .label-team-1 h2{
+        width: 300px;
+    }
+    .label-team-1{
+        position: relative;
+        top: 30px;
+    }
+
+    .label-team-2 > h1{
+        font-size: 20px;
+    }
+
+
+    .menu-1-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .menu-1-1 h1,.menu-1-1 h4{
+        text-align: center;
+    }
+    .dc-pic img{
+        width: 300px;
+    }
+    .menu-1-1 h4{
+        color: black;
+    }
+
+    .diary-area{
+        /* border: rgb(155, 93, 36) 1px solid; */
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }   
+    
+    
+    .cards{
+        /* border: blue 1px solid; */
+        background-color: rgba(146, 146, 146, 0.5);
+        width: 100%;
+        position: relative;
+        text-align: center;
+        padding: 15px;
+        box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+    }
+    
+    .cards img{
+        width: 80%;
+    }
+    .diary-words{
+        padding: 5px;
+    }
+    
+    .card_1,.card_2,.card_3{
+        --width: 429px;
+        --time: 0.7s;
+    
+        position: relative;
+        display: inline-block;
+        /* height: 1em; */
+        /* padding: 1em; */
+    
+        color: rgba(235, 216, 216, 0.781);
+        /* background: #222; */
+        overflow: hidden;
+    }
+    .cards_2::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        right: 0px;
+        background: rgba(2, 1, 1, 0.6);
+        height: 400px;
+        z-index: -1;
+    }
+    
+    .card_1 span ,.card_2 span ,.card_3 span {
+        display: none;
+    }
+    
+    .card_1:hover span {
+        display: none;
+        
+    }
+    .card_2:hover span {
+        display: none;
+        
+    }
+    
+    .card_3:hover span {
+        display: none;
+        
+    }
+
+
+    .top{
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+        }
+        .top img{
+        width: 44px;
+        }
+    
+        .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+        }
+        .fa-caret-up {
+        width: 25px;
+        font-size: 30px;
+        transform: translateX(-15px);
+        }   
+    
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .diary-area{
+        /* border: rgb(155, 93, 36) 1px solid; */
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+    }
+    
+    
+    .cards{
+        /* border: blue 1px solid; */
+        background-color: rgba(146, 146, 146, 0.5);
+        width: 65%;
+        position: relative;
+        margin: 10px;
+        text-align: center;
+        padding: 15px;
+        box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+    }
+    
+    .cards img{
+        width: 400px;
+    }
+    .diary-words{
+        padding: 5px;
+    }
+    
+    .cards img{
+        width: 400px;
+    }
+    .diary-words{
+        padding: 5px;
+    }
+    
+    .card_1,.card_2,.card_3{
+        --width: 429px;
+        --time: 0.7s;
+    
+        position: relative;
+        display: inline-block;
+        /* height: 1em; */
+        /* padding: 1em; */
+    
+        color: rgba(235, 216, 216, 0.781);
+        /* background: #222; */
+        overflow: hidden;
+    }
+    
+    .card_1 span ,.card_2 span ,.card_3 span {
+        display: none;
+    }
+    
+    .card_1:hover span {
+        display: none;
+        
+    }
+    .card_2:hover span {
+        display: none;
+        
+    }
+    
+    .card_3:hover span {
+        display: none;
+        
+    }
+   
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .diary-area{
+        /* border: rgb(155, 93, 36) 1px solid; */
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+    }
+    
+    
+    .cards{
+        /* border: blue 1px solid; */
+        background-color: rgba(146, 146, 146, 0.5);
+        width: 60%;
+        position: relative;
+        margin: 10px;
+        text-align: center;
+        padding: 15px;
+        box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+    }
+    
+    .cards img{
+        width: 400px;
+    }
+    .diary-words{
+        padding: 5px;
+    }
+    
+    .card_1,.card_2,.card_3{
+        --width: 429px;
+        --time: 0.7s;
+    
+        position: relative;
+        display: inline-block;
+      
+    
+        color: rgba(235, 216, 216, 0.781);
+        /* background: #222; */
+        overflow: hidden;
+    }
+    
+    .card_1 span ,.card_2 span ,.card_3 span {
+        display: none;
+    }
+    
+    .card_1:hover span {
+        display: none;
+        
+    }
+    .card_2:hover span {
+        display: none;
+        
+    }
+    
+    .card_3:hover span {
+        display: none;
+        
+    }
+    
+}

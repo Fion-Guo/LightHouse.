@@ -1,0 +1,354 @@
+@media screen and (max-width: 320px){
+
+
+    h1,.forth-area h1{
+        font-size: 20px;
+    }
+    .mm-pic h1{
+        width: 90%;
+    }
+
+
+    .num-squre{
+        display: none;
+    }
+    .left-block{
+        display: none;
+    }
+    .forth-area h1{
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .top{
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top img {
+        width: 44px;
+    }
+
+    .top i {
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up {
+        width: 25px;
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .little p > br{
+        display: none;
+    }
+    .little p{
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+    }
+    .little{
+        margin-top: 50px;
+    }
+
+    .second-area-photo img{
+        width: 100%;
+        /* display: none; */
+    }
+    .second-area-group h3{
+        width: 100%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        font-size: 16px;
+      
+        line-height: 25px;
+        text-align: center;
+    }
+    .second-area-title,.third-area h1{
+        margin-bottom: 50px;
+    }
+    .second-area-title{
+        margin: 0;
+        /* width: 200px; */
+        display: inline;
+    }
+    .second-area-title h1{
+        margin: 100px 50px 100px 50px;
+    }
+    .left-block{
+        width: 100%;
+    }
+    .little-pic img{
+        width: 100%;
+    }
+    .third-banner{
+        /* filter: brightness(15%); */
+        background-position: -150px -100px; 
+    }
+    .third-area h4{
+        
+        height: 100%;
+        width: 100%;
+        background-color: rgba(105, 98, 98, 0.562);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .third-area h1{
+       
+        text-align: center;
+        width: 50%;
+    }
+    .forth-area h1{
+        margin: 100px 50px 0px 50px;
+        font-size: 20px;
+    }
+
+    .lighthouse-footer{
+        font-size: 9px;
+    }
+    
+
+}
+
+@media screen and (min-width: 321px) and (max-width: 575px){
+
+    h1,.forth-area h1{
+        font-size: 20px;
+    }
+    .mm-pic h1{
+        width: 90%;
+    }
+
+    .num-squre{
+        display: none;
+    }
+    .left-block{
+        display: none;
+    }
+    .forth-area h1{
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .top{
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top img {
+        width: 44px;
+    }
+
+    .top i {
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up {
+        width: 25px;
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .little p > br{
+        display: none;
+    }
+    .little p{
+        line-height: 25px;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+    }
+    .little{
+        margin-top: 50px;
+    }
+
+    .second-area-photo img{
+        width: 100%;
+    }
+    .second-area-group h3{
+        width: 100%;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        font-size: 16px;
+      
+        line-height: 25px;
+        text-align: center;
+    }
+    .second-area-title,.third-area h1{
+        margin-bottom: 50px;
+      /* display: inline-block; */
+
+    }
+    .second-area-title{
+        margin: 0;
+      /* width: 200px; */
+      display: inline;
+    }
+    .second-area-title h1{
+      margin: 100px 50px 100px 50px;
+
+    }
+    .left-block{
+        width: 100%;
+    }
+    .little-pic img{
+        width: 100%;
+    }
+    .third-banner{
+        /* filter: brightness(15%); */
+        background-position: -150px -100px; 
+    }
+    .third-area h4{
+       
+        height: 100%;
+        width: 100%;
+        background-color: rgba(105, 98, 98, 0.562);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .third-area h1{
+        
+        text-align: center;
+        /* margin: 50px 50px; */
+        margin: 100px 50px 50px 50px;
+    }
+    .forth-area h1{
+        /* margin-bottom: 0; */
+        margin: 100px 50px 0px 50px;
+        font-size: 20px;
+    }
+
+    .lighthouse-footer{
+        font-size: 9px;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+
+    .mm-pic h1{
+        width: 90%;
+    }
+    .num-squre{
+        display: none;
+    }
+
+    .forth-area h1{
+        margin-top: 100px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .top{
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top img {
+        width: 44px;
+    }
+
+    .top i {
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up {
+        width: 25px;
+        font-size: 30px;
+        transform: translateX(-15px);
+    }
+    .little-pic img{
+        width: 100%;
+    }
+    .little p > br{
+        display: none;
+    }
+    .little p{
+        width: 500px;
+        text-align: left;
+    }
+    .left-block{
+        width: 100%;
+    }
+
+    .second-area-photo img{
+        width: 100%;
+    }
+    .second-area-group h3{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    .mm-pic h1{
+        width: 90%;
+    }
+    .little-pic img{
+        width: 400px;
+        
+    }
+    .little p > br{
+        display: none;
+    }
+    .little p{
+        width: 500px;
+        text-align: left;
+    }
+
+    .second-area-photo img{
+        width: 100%;
+    }
+    .second-area-group h3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .forth-area h1{
+        margin: 100px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .little-pic img{
+        width: 400px;
+        /* height: 100%; */
+        /* border: rgb(139, 64, 34) 1px solid; */
+    
+    
+    }
+}

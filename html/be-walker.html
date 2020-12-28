@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/normalize .css">
+    <link rel="stylesheet" href="../css/be-walker.css">
+    <link rel="stylesheet" href="../vendors/index.js">
+    <link rel="stylesheet" href="../vendors/strict.js">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js">
+    <!-- TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+    crossorigin="anonymous"></script>
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <!-- UIkit -->
+    <link rel="stylesheet" href="../vendors/uikit-3.5.8/css/uikit.min.css" />
+    <script src="../vendors/uikit-3.5.8/js/uikit.min.js"></script>
+    <script src="../vendors/uikit-3.5.8/js/uikit-icons.min.js"></script>
+
+    <link rel="stylesheet" href="../css/update_main_walk.css">
+    <link rel="stylesheet" href="../css/rwd.be_walker.css">
+    <link rel="stylesheet" href="../css/log.in-modal.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <title>be walker!</title>
+</head>
+
+<body>
+    <!-- 登入 / 註冊燈箱 -->
+<div class="overlay">
+        
+  <div class="log-in-modal">
+      <i class="far fa-window-close btn_modal_close fa-3x"></i>
+     
+    <div class="log-dog-pic" style="z-index: 9;">
+      <div class="main-log-part">
+        <!-- <div class="log-logo"><a href="../html/new-main.html"></a></div> -->
+        <input type="text" placeholder="&emsp;&emsp;Lighthouse 帳號">
+        <input type="text" placeholder="&emsp;&emsp;密碼">
+        <div class="log-btn">登入</div>
+        <div class="forget-ps">
+          <p>忘記密碼了嗎？</p>
+
+        </div>
+
+        <div class="new-account">
+          <p>還不是會員嗎?</p>
+          <p class="quick">立刻註冊新帳號</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- 登入 / 註冊燈箱 end-->
+
+<div id="header">
+  <div class="logo">
+  <a href="../html/index.html">LIGHTHOUSE</a>
+  </div>
+  <nav>
+  <form class="search">
+  <input name="q" placeholder="Search..." type="search">
+  </form>
+  <ul>
+  <li>
+  <a href="../html/index.html">Home</a>
+  </li>
+  <li>
+  <a href="">About</a>
+  <ul class="mega-dropdown">
+  <li class="row">
+  <ul class="mega-col">
+  <li><a href="../html/update_story.html">Lighthouse Story</a></li>
+  <li><a href="../html/help.html">Help Center</a></li>
+  </ul>
+  </li>
+  </ul>
+  </li>
+  <li class="dropdown">
+  <a href="">Service</a>
+  <ul>
+  <li><a href="../html/be-walker.html">Be walk the dog sitter</a></li>
+  <li><a href="../html/update-main-walk-dog.html">Find walk the dog sitter</a></li>
+  </ul>
+  </li>
+  <li>
+  <a href="../html/update_article.html">News</a>
+  </li>
+  <li class="dropdown">
+  <a href="#" class="btn_modal">Account</a>
+  
+  </li>
+  </ul>
+  </nav>
+</div>
+  <div class="wrap">
+
+    <div class="main-bgc">
+      <div class="main-happy">
+              <!-- test -->
+            <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow="animation: push">
+                <ul class="uk-slideshow-items">
+                    <li>
+                        <img src="../scroll_img/photo-1551779891-b83901e1f8b3.jpeg" alt="" uk-cover>
+                        <div class="uk-position-center uk-position-small uk-text-center uk-light first-pic">
+                            <h2 class="uk-margin-remove first-pic-words">Be Walk the Dog Sitter</h2>
+                            <div class="download-btn">Download</div>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../scroll_img/photo-1539309440538-f4df5651f8fe.jpeg" alt="" uk-cover>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                            <h3 class="uk-margin-remove">Babe...</h3>
+                            <p class="uk-margin-remove second-pic-words">I love you right up to the moon-and back!</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../scroll_img/photo-1596698338259-00c6169b63e2.jpeg" alt="" uk-cover>
+                        <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                            <h3 class="uk-margin-remove">Choose what you what in here!</h3>
+                            
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../scroll_img/photo-1595314544137-1b106b06e2c1.jpeg" alt="" uk-cover>
+                        <div class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small">
+                            <h3 class="uk-margin-remove">Save&rust</h3>
+                            <p class="uk-margin-remove">It's first always.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="uk-light">
+                  <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                  <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                </div>
+            
+              <!-- </div>               -->
+              <!-- test --> 
+            </div>
+      </div>
+        
+    </div>
+
+    
+
+    <div class="main">
+
+      <h1 class="first-title">How it works</h1>
+
+      <div class="steps-group" uk-grid uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+        <div>
+           <!-- 第一張 -->
+          <div class="steps-1 uk-card">
+            <div class="step-num"><h3>1</h3></div>
+            <div class="s-01"><img src="../img/a1.jpeg" alt="">
+              <h5>The more complete your profile is, the more the owner will trust you and set your free time.</h5>
+          </div>
+  
+            <div class="steps-btn"><p>Create a account</p></div>
+          </div>
+
+        </div>
+
+        <div>
+          <!-- 第二張 -->
+          <div class="steps-1 uk-card">
+            <div class="step-num"><h3>2</h3></div>
+            <div class="s-01"><img src="../img/for-dog.jpeg" alt="">
+              <h5>The more complete your profile is, the more the owner will trust you and set your free time.</h5>
+            </div>
+  
+            <div class="steps-btn"><p>Set up profile</p></div>
+          </div>
+        </div>
+
+
+        <div>
+          <!-- 第三張 -->
+          <div class="steps-1 uk-card">
+            <div class="step-num"><h3>3</h3></div>
+            <div class="s-01"><img src="../img/photo-1494947665470-20322015e3a8.jpeg" alt="">
+              <h5>The more complete your profile is, the more the owner will trust you and set your free time.</h5>
+            </div>
+  
+            <div class="steps-btn"><p>Search people</p></div>
+          </div>
+        </div>
+
+        <div>
+          <!-- 第4張 -->
+          <div class="steps-1 uk-card">
+            <div class="step-num"><h3>4</h3></div>
+            <div class="s-01"><img src="../img/photo-1494947665470-20322015e3a8.jpeg" alt="">
+              <h5>The more complete your profile is, the more the owner will trust you and set your free time.</h5>
+            </div>
+  
+            <div class="steps-btn"><p>Match</p></div>
+          </div>
+        </div>
+
+        <div>
+          <!-- 第5張 -->
+          <div class="steps-1 uk-card">
+            <div class="step-num"><h3>5</h3></div>
+            <div class="s-01"><img src="../img/a2.jpeg" alt="">
+              <h5>The more complete your profile is, the more the owner will trust you and set your free time.</h5>
+            </div>
+  
+            <div class="steps-btn"><p>Pay</p></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="second-area">
+        <div><img src="" alt=""></div>
+      </div>
+
+      <div class="third-area">
+        <div class="third-pic"><img src="../img/photo-1549643276-fdf2fab574f5.jpeg" alt=""></div>
+
+        <div class="third-area-words">
+          <h1>Join Now !</h1>
+          <div><h5>Safety first.<br> Always.
+            We work tirelessly to ensure tails keep wagging and<br>pet parents’ minds are at ease. 
+            Every Rover service you offer is covered by<br>the Rover Guarantee
+            Safe, secure, and convenient online payments
+            General<br>background checks offered for every pet sitter and dog walker
+            A world-class<br>support team that has your back around the clock
+            Ongoing pet care education for dog sitters!</h5>
+          </div>
+
+          <div class="download-group">
+            <img src="../img/Get_it_on_Google_play.6f50a9a2cde5.png" alt="">
+            <img src="../img/Download_on_the_App_Store_Badge_US-UK_135x40.d0558d910630.png" alt="">
+          </div>
+
+        </div>
+      
+      </div>
+
+    </div>
+    <!-- main end -->
+  </div>
+
+
+    
+
+
+
+    
+    
+
+    
+    <div class="top" id="go_top"><i class="fas fa-caret-up fa-3x"></i><img src="../img/top.png" alt=""></div>
+
+    <footer class="lighthouse-footer">Copyright © Lighthouse All Rights Reserved.</footer>
+
+  </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script> 
+    $('#header').prepend('<div id="menu-icon"><span class="first"></span><span class="second"></span><span class="third"></span></div>');
+	
+	$("#menu-icon").on("click", function(){
+    $("nav").slideToggle();
+    $(this).toggleClass("active");
+  });
+    
+    // DOM 載入完成後執行
+        $(function(){
+          
+          // 點擊按鈕，頁面滑到最上方
+          $("#go_top").on("click", function(e){
+            e.preventDefault();
+            $('html, body').animate({
+              scrollTop: 0
+            }, 750);
+          });
+          
+        });   
+
+        // DOM 載入完成之後
+        $(function(){
+    
+    // 點擊
+    $(".fa-shopping-cart").on("click", function(e){
+        // e.preventDefault();
+    // -open 的樣式切換
+    $("div.right-side-bar").toggleClass("-open");
+    });
+
+    });
+
+    $(function(){
+    $(".fa-times-circle").on("click", function(e){
+        // e.preventDefault();
+    // -open 的樣式切換
+    $("div.right-side-bar").toggleClass("-open");
+    });
+
+    });
+
+    $(function () {
+      // 開啟 Modal 彈跳視窗
+      $(".btn_modal").on("click", function (e) {
+        $("div.overlay").addClass("-on");
+      });
+
+      // 關閉 Modal
+      $(".btn_modal_close").on("click", function (e) {
+      $("div.overlay").addClass("-opacity-zero");
+
+      // 設定隔一秒後，移除相關 class
+      setTimeout(function (e) {
+          $("div.overlay").removeClass("-on -opacity-zero");
+        }, 1000);
+      });
+    });
+        
+        
+        
+        
+    </script>
+</body>
+</html>

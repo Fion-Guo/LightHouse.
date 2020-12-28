@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/normalize .css">
+    <link rel="stylesheet" href="../css/update_story.css">
+    <link rel="stylesheet" href="../vendors/index.js">
+    <link rel="stylesheet" href="../vendors/strict.js">
+    <link rel="stylesheet" href="../css/log.in-modal.css">
+    <title>update_story</title>
+</head>
+<body>
+    <!-- 登入 / 註冊燈箱 -->
+<div class="overlay">
+        
+    <div class="log-in-modal">
+        <i class="far fa-window-close btn_modal_close fa-3x"></i>
+       
+      <div class="log-dog-pic" style="z-index: 9;">
+        <div class="main-log-part">
+          <!-- <div class="log-logo"><a href="../html/new-main.html"></a></div> -->
+          <input type="text" placeholder="&emsp;&emsp;Lighthouse 帳號">
+          <input type="text" placeholder="&emsp;&emsp;密碼">
+          <div class="log-btn">登入</div>
+          <div class="forget-ps">
+            <p>忘記密碼了嗎？</p>
+  
+          </div>
+  
+          <div class="new-account">
+            <p>還不是會員嗎?</p>
+            <p class="quick">立刻註冊新帳號</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  <!-- 登入 / 註冊燈箱 end-->
+    <div class="wrap">
+    <div class="main-bgc">
+        <div class="main-happy">
+
+          <div id="header">
+            <div class="logo">
+            <a href="../html/index.html">LIGHTHOUSE</a>
+            </div>
+            <nav>
+            <form class="search" action="search.php">
+            <input name="q" placeholder="Search..." type="search">
+            </form>
+            <ul>
+            <li>
+            <a href="../html/index.html">Home</a>
+            </li>
+            <li>
+            <a href="">About</a>
+            <ul class="mega-dropdown">
+            <li class="row">
+            <ul class="mega-col">
+            <li><a href="../html/update_story.html">Lighthouse Story</a></li>
+            <li><a href="../html/help.html">Help Center</a></li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            <li class="dropdown">
+            <a href="">Service</a>
+            <ul>
+            <li><a href="../html/be-walker.html">Be walk the dog sitter</a></li>
+            <li><a href="../html/update-main-walk-dog.html">Find walk the dog sitter</a></li>
+            </ul>
+            </li>
+            <li>
+            <a href="../html/update_article.html">News</a>
+            </li>
+            <li class="dropdown">
+            <a href="#" class="btn_modal">Account</a>
+            
+            </li>
+            </ul>
+            </nav>
+            </div>
+            <div class="story-banner" >
+                <div class="banner-pic-group">
+
+                <div class="mm-pic"></div>
+                <div class="my-love"></div>
+
+                </div>
+
+
+                <div class="bammer-words-group">
+                    <div class="banner-words-1">Let Me Be</div>
+                    <div class="banner-words-2">With You</div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="story-area">
+        <div class="story-content">
+            <p><br>
+                Lighthouses, <br> guiding the people sailing in the sea in confusion,<br> are a landmark on their way home and a sign of homestay.<br> Today, pets have become an integral part of our families in our lives,<br> and we share our joys and sorrows with them,<br> as well as with their joys and sorrows.
+                <br><br>
+                When people say that it is humans who give pets material life, But for me, they really gave me a lot of spiritual support, It's an emotion that matter can't match and exchange.<br><br>
+
+
+
+                We founded in 2010, <br>ten spring, summer, autumn and winter in a blink of an eye,<br> Lighthouse from a one-person pet food studio, <br>There are now strongholds all over the world,<br> The gratitude in my heart is full... The Lighthouse team will continue to provide the best service! <br>Accompany everyone to one decade after another. <br><br>
+
+            </p>
+        </div>
+    </div>
+
+    <div class="top" id="go_top"><i class="fas fa-caret-up fa-3x"></i><img src="../img/top.png" alt=""></div>
+
+    <footer class="lighthouse-footer">Copyright © Lighthouse All Rights Reserved.</footer>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $('#header').prepend('<div id="menu-icon"><span class="first"></span><span class="second"></span><span class="third"></span></div>');
+	
+	$("#menu-icon").on("click", function(){
+    $("nav").slideToggle();
+    $(this).toggleClass("active");
+});
+
+
+
+// DOM 載入完成後執行
+    $(function(){
+      
+      // 點擊按鈕，頁面滑到最上方
+      $("#go_top").on("click", function(e){
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, 750);
+      });
+      
+    });   
+    // DOM 載入完成之後
+    $(function(){
+    
+    // 點擊
+    $(".fa-shopping-cart").on("click", function(e){
+        // e.preventDefault();
+    // -open 的樣式切換
+    $("div.right-side-bar").toggleClass("-open");
+    });
+
+    });
+
+    $(function(){
+    $(".fa-times-circle").on("click", function(e){
+        // e.preventDefault();
+    // -open 的樣式切換
+    $("div.right-side-bar").toggleClass("-open");
+    });
+
+    });
+
+    $(function () {
+// 開啟 Modal 彈跳視窗
+$(".btn_modal").on("click", function (e) {
+$("div.overlay").addClass("-on");
+});
+
+// 關閉 Modal
+$(".btn_modal_close").on("click", function (e) {
+$("div.overlay").addClass("-opacity-zero");
+
+// 設定隔一秒後，移除相關 class
+setTimeout(function (e) {
+  $("div.overlay").removeClass("-on -opacity-zero");
+}, 1000);
+});
+});
+    
+    
+    </script>
+</body>
+</html>

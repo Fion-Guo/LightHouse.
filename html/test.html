@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize .css">
+    <link rel="stylesheet" href="../css/help.css">
+    <link rel="stylesheet" href="../css/log.in-modal.css">
+    <title>LightHouse | Help Center</title>
+</head>
+<body>
+<div class="wrap">
+  <div id="header">
+    <div class="logo">
+      <a href="../html/update_main.html">LIGHTHOUSE</a>
+    </div>  
+    <nav>
+      <form class="search" action="search.php"> 
+        <input name="q" placeholder="Search..." type="search">
+      </form>
+      <ul>
+        <li>
+          <a href="../html/update_main.html">Home</a>
+        </li>
+        <li>
+          <a href="">About</a>
+          <ul class="mega-dropdown">
+            <li class="row">
+              <ul class="mega-col">
+                <li><a href="../html/update_story.html">Lighthouse Story</a></li>
+                <li><a href="../html/help.html">Help Center</a></li>
+              </ul>
+              
+              
+            </li>
+          </ul>        
+        </li>
+        <li class="dropdown">
+          <a href="">Service</a>
+          <ul>
+            <li><a href="../html/be-walker.html">Be walk the dog sitter</a></li>
+            <li><a href="../html/update-main-walk-dog.html">Find walk the dog sitter</a></li>
+          </ul>        
+        </li>
+        <li>
+          <a href="../html/update_article.html">News</a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="btn_modal">Account</a>
+          
+
+        </li>
+      </ul>
+    </nav>
+  </div>
+       <!-- 登入 / 註冊燈箱 -->
+  <div class="overlay">
+
+    <div class="log-in-modal">
+        <i class="far fa-window-close btn_modal_close fa-3x"></i>
+      
+      <div class="log-dog-pic" style="z-index: 9;">
+        <div class="main-log-part">
+          <input type="text" placeholder="&emsp;&emsp;Lighthouse 帳號">
+          <input type="text" placeholder="&emsp;&emsp;密碼">
+          <div class="log-btn">登入</div>
+          <div class="forget-ps">
+            <p>忘記密碼了嗎？</p>
+
+          </div>
+
+          <div class="new-account">
+            <p>還不是會員嗎?</p>
+            <p class="quick">立刻註冊新帳號</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- 登入 / 註冊燈箱 end-->
+  <div><img src="../img/people_walking.png" alt=""></div>
+  <p class="HelpCenter">Help Center</p>
+  <div class="accordion">
+    <div class="helpCard">
+      <div class="accordion-control">
+        What's the difference between a dog review and dog notes?
+      </div>
+      <div class="accordion-panel">
+        A dog review allows you to share feedback with LightHouse Support about a specific pet you cared for during a stay. This allows us to reference a pet's history to ensure safe pet sitting experience on LightHouse for sitters and their client's pets.
+
+        Pet reviews are not viewable to you, your client, or other sitters. Once you submit a pet review, you will only be able to see the star rating. The written portion will only be visible to the Rover Support team.
+
+        Dog notes are a great resource for sitters who want to keep a record of information about a dog that they can reference later. Dog notes are only available to you, and you can reference them at any time from the dog's profile.
+
+      </div>
+    </div>
+
+    <div class="helpCard">
+      <div class="accordion-control">
+        How do I get paid for bookings?
+      </div>
+      <div class="accordion-panel">
+        <li>1. Tap the menu or More icon in the LightHouse app.</li>
+        
+        <li>2. Tap Payments.</li>
+        
+        <li>3. Tap Withdraw Money.</li>
+        
+        <li>4. Choose your payment method: PayPal or check.
+          Payments redeemed via PayPal are released within 1-4 days, with no fees.
+          Checks take up to 5 business days to process, up to 20 days to arrive, and incur a $5 fee.</li>
+        <li> 5. Once you’ve chosen your payment method and filled out the form, tap Submit.</li>
+        <li>6. Tap Request Payment.</li>
+
+        
+      </div>
+    </div>
+
+    <div class="helpCard">
+      <div class="accordion-control">
+        How do I manage my availability?
+      </div>
+      <div class="accordion-panel">
+        Keeping your calendar up to date is an important part of managing your business on Rover. In this article, we'll talk about how to use Rover's calendar feature to manage your availability for specific dates and services.
+      </div>
+    </div>
+      
+        
+  </div>
+
+</div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+    $('.accordion').on('click', '.accordion-control', function(e){
+        e.preventDefault();
+        $(this).next('.accordion-panel').not(':animated').slideToggle();
+    });
+
+    $(function () {
+      // 開啟 Modal 彈跳視窗
+      $(".btn_modal").on("click", function (e) {
+      $("div.overlay").addClass("-on");
+      });
+
+      // 關閉 Modal
+      $(".btn_modal_close").on("click", function (e) {
+        $("div.overlay").addClass("-opacity-zero");
+
+        // 設定隔一秒後，移除相關 class
+        setTimeout(function (e) {
+          $("div.overlay").removeClass("-on -opacity-zero");
+        }, 1000);
+      });
+    });
+        
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,250 @@
+@import "header.css";
+
+*, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;letter-spacing: 1.5px;list-style: none}
+@font-face{
+    font-family: "oriya";
+    src: url(../fonts/Oriya\ MN.ttc);
+    font-display: swap;
+
+}
+body{
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);;line-height:1.5;text-transform:none;font-size:16px;font-family: "oriya"}
+a{text-decoration:none;
+    color:#fff   
+}
+
+
+/* ----開始！---- */
+
+
+.wrap{
+    /* border: slategrey 1px solid; */
+    width: 100%;
+}
+
+.main{
+    /* border: 1px solid rgb(0, 0, 0); */
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.main-happy{
+    
+    width: 100%;
+    /* height: 1105px; */
+    background-color: #F2EDE1;
+    /* overflow: hidden; */
+}
+
+
+.mm-pic{
+    width: 100%;
+    height:  calc(100vh - 98px);
+    /* border: rgb(68, 46, 5) 1px solid; */
+
+    background-image: url(../img/wet.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.mm-pic h1{
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 10px 10px 30px #000;
+
+}
+.second-area-title{
+    /* border: orange 1px solid; */
+    text-align: center;
+    margin: 100px;
+}
+
+.second-area-photo img{
+    width: 800px;
+}
+.second-area-group{
+    position: relative;
+    /* border: orange 1px solid; */
+}
+.second-area-group h3{
+    line-height: 35px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    background-color: rgba(146, 146, 146, 0.623);
+    
+
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+}
+
+
+/* third - 3 */
+
+.third-banner{
+   
+    /* box-sizing: border-box; */
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+    background-image: url(../img/photo-1597182845937-2383d7ce42f3.jpeg);
+    /* overflow: scroll; */
+    /* 
+    background-size: cover;
+    background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 0px; 
+
+    position: relative;
+}
+
+.third-area h1{
+    margin: 100px;
+    text-align: right;
+}
+
+
+.third-area h4{
+    line-height: 35px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    width: 500px;
+    background-color: rgba(12, 23, 59, 0.411);
+
+}
+
+/* ---- 4 ---- */
+.forth-area h1{
+    margin: 100px;
+}
+
+.left-block{
+    /* border: rgb(255, 234, 44) 1px solid; */
+    margin-top: 100px;
+    background-color: #3b687e9f;
+    width: 600px;
+    height: 1500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    position: absolute;
+    top: 50px;
+}
+
+.forth-area{
+    position: relative;
+}
+
+.little{
+    width: 100%;
+    display: flex;
+    margin: 200px 0;
+    position: relative;
+}
+.little p{
+
+    color: ghostwhite;
+    background-color: rgba(99, 99, 99, 0.37);
+    line-height: 30px;
+    text-align: right;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    padding: 10px;
+
+}
+.num-squre{
+    background-color: #fff;
+    color: gray;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-weight: 600;
+    align-self: center;
+} 
+
+.little-pic img{
+    width: 600px;
+    height: 100%;
+    /* border: rgb(139, 64, 34) 1px solid; */
+}
+.right-block{
+    /* border: rgb(157, 172, 75) 1px solid; */
+
+    background-color: #E8D2D2;
+    width: 100%;
+   
+}
+
+/* 向上標籤與footer */
+.top{
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;    
+    animation-name: top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 99;
+    /* display: none; */
+}
+
+.top img{
+    width: 80px;
+}
+.top i{
+    color: #fff;
+    position: absolute;
+    top: -40px;
+    left: 29px;
+}
+
+@keyframes top{
+    0%{
+        transform: rotate(-25deg);
+    }
+    25%{
+        transform: rotate(25deg);
+    }
+    50%{
+        transform: rotate(-25deg);
+    }
+    75%{
+        transform: rotate(25deg);
+
+    }
+    100%{
+        transform: rotate(-25deg);
+    }
+}
+
+
+
+.lighthouse-footer{
+text-align: center;
+margin-top: 200px;
+padding: 10px;
+height: 50px;
+width: 100%;
+background-color: #264250;
+color: #fff;
+
+}

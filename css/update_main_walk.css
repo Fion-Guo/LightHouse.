@@ -1,0 +1,280 @@
+@import "header.css";
+
+*, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;letter-spacing: 1.5px;list-style: none}
+@font-face{
+    font-family: "oriya";
+    src: url(../fonts/Oriya\ MN.ttc);
+    font-display: swap;
+
+}
+body{
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);line-height:1.5;text-transform:none;font-size:16px;color:#fff;font-family: "oriya"}
+a{text-decoration:none !important;
+    color:#fff
+    
+}
+
+.wrap{
+    width: 100%;
+    overflow: hidden;
+}
+.main{
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+/* ----第二部分---- */
+    
+.area-2-word{
+    text-align: center;
+    letter-spacing: 5px;
+    color: #707070;
+
+}
+.area-2-word h1{
+    color: #264250;
+    font-size: 50px;
+    letter-spacing: 10px;    
+    margin-top: 100px;
+}
+.area-2-word h3{
+    margin: 30px;
+}
+
+.walk-area-1{
+    width: 100%;
+    border: #DB8F8B 20px double;
+    background-color: #F5E4D0;
+    overflow: hidden;
+    position: relative;
+}
+
+.feedback, .feedback-2{
+   
+    width: 100%;
+    height: 500px;
+    /* border: green 1px solid; */
+   
+   
+    position: relative;
+
+}
+.walk-area-1 span{
+    color: #264250;
+    background-color: #F0E6A2;
+}
+
+
+.f-w-1,.f-w-2{
+    color: #707070;
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #fff;
+    padding: 10px 7px;
+    letter-spacing: 6px;
+    line-height: 40px;
+}
+
+.f-w-1{
+    z-index: 4;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+.f-w-2{
+    position: absolute;
+    right: 30px;
+    bottom: 200px;
+    z-index: 4;
+}
+
+.thx-1{
+    background-image: url(../img/thx-1.jpeg);
+    width: 750px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.thx-2{
+    background-image: url(../img/thx-2.jpeg);
+    width: 750px;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: absolute;
+}
+
+.register-btn{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+    z-index: 10;
+    cursor: pointer;
+    text-align: center;
+    color: #264250;
+    font-size: 25px;
+    padding: 30px 20px;
+    background-color: #E9D098;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all .3s;
+    
+}
+
+.register-btn:hover{
+    background-color: #fff;
+    transform: translateY(-10px);
+}
+
+/* Lighthouse誠摯的歡迎您加入 end */
+
+
+
+
+.walk-area-2{
+    margin-top: 200px;
+    background-color: #F2EDE1;
+    width: 100%;
+    height: 800px;
+}
+
+.cup-block-1,.cup-block-2{
+    width: 700px;
+    height: 600px;
+    background-color: #fff;
+    /* border: 1px solid #333; */
+}
+.cup-block-1{
+    background-image: url(../img/4c595c9984a1b47183de3b8a13c20558.jpg);
+    background-position: 50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.cup-block-2{
+    background-image: url(../img/93495768053aa3b017c109916ee8bb7d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -350px;
+}
+
+.cup-block-word{
+    text-align: center;
+    display: inline-block;
+    font-size: 35px;
+}
+
+/* ----滑動圖片三步驟---- */
+
+.second-walk-area{
+    margin: 100px;
+    /* background-color: rgba(163, 163, 163, 0.63); */
+    /* border: steelblue 1px solid; */
+}
+
+.second-walk-area h3{
+    text-align: center;
+}
+
+.banner h1{
+    margin: 100px 50px 100px 50px;
+    text-align: center;
+}
+.second-walk-area h1{
+    margin: 100px 50px 50px 50px;
+    text-align: center;
+}
+.play_{
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid red; */
+    background-image: url(../img/city01.jpeg);
+    /* overflow: scroll; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    background-attachment: fixed;
+    background-position: 0px 0px;
+
+    position: relative;
+}
+.play_words{
+    display: inline-block;
+    width: 650px;
+    padding: 15px 20px;
+    background-color: rgba(206, 206, 206, 0.658);
+    line-height: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);  
+}
+
+.card-slider-title h1{
+    margin: 100px 50px 50px 50px;
+    text-align: center;
+}
+
+/* 向上標籤與footer */
+.top{
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;    
+    animation-name: top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 99;
+    /* display: none; */
+}
+
+.top img{
+    width: 80px;
+}
+.top i{
+    
+    position: absolute;
+    top: -40px;
+    left: 29px;
+}
+
+@keyframes top{
+    0%{
+        transform: rotate(-25deg);
+    }
+    25%{
+        transform: rotate(25deg);
+    }
+    50%{
+        transform: rotate(-25deg);
+    }
+    75%{
+        transform: rotate(25deg);
+
+    }
+    100%{
+        transform: rotate(-25deg);
+    }
+}
+
+.lighthouse-footer{
+    text-align: center;
+    margin-top: 200px;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: #264250;
+    color: #fff;
+
+}
+

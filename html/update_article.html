@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/normalize .css">
+    <link rel="stylesheet" href="../css/update_article.css">
+    <link rel="stylesheet" href="../css/rwd.update_article.css">
+    <link rel="stylesheet" href="../vendors/index.js">
+    <link rel="stylesheet" href="../vendors/strict.js">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js">
+    <!-- TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha512-DkPsH9LzNzZaZjCszwKrooKwgjArJDiEjA5tTgr3YX4E6TYv93ICS8T41yFHJnnSmGpnf0Mvb5NhScYbwvhn2w=="
+    crossorigin="anonymous"></script>
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script> -->
+    <link rel="stylesheet" href="../css/log.in-modal.css">
+    <title>pet-article</title>
+</head>
+<body>
+     <!-- 登入 / 註冊燈箱 -->
+<div class="overlay">
+        
+  <div class="log-in-modal">
+      <i class="far fa-window-close btn_modal_close fa-3x"></i>
+     
+    <div class="log-dog-pic" style="z-index: 9;">
+      <div class="main-log-part">
+        <input type="text" placeholder="&emsp;&emsp;Lighthouse 帳號">
+        <input type="text" placeholder="&emsp;&emsp;密碼">
+        <div class="log-btn">登入</div>
+        <div class="forget-ps">
+          <p>忘記密碼了嗎？</p>
+
+        </div>
+
+        <div class="new-account">
+          <p>還不是會員嗎?</p>
+          <p class="quick">立刻註冊新帳號</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+
+<!-- 登入 / 註冊燈箱 end-->
+    <div class="wrap">
+
+      <div id="header">
+        <div class="logo">
+          <a href="../html/index.html">LIGHTHOUSE</a>
+        </div>  
+        <nav>
+          <form class="search" action="search.php"> 
+            <input name="q" placeholder="Search..." type="search">
+          </form>
+          <ul>
+            <li>
+              <a href="../html/index.html">Home</a>
+            </li>
+            <li>
+              <a href="">About</a>
+              <ul class="mega-dropdown">
+                <li class="row">
+                  <ul class="mega-col">
+                    <li><a href="../html/update_story.html">Lighthouse Story</a></li>
+                    <li><a href="../html/help.html">Help Center</a></li>
+                  </ul>
+                  
+                  
+                </li>
+              </ul>        
+            </li>
+            <li class="dropdown">
+              <a href="">Service</a>
+                <ul>
+                  <li><a href="../html/be-walker.html">Be walk the dog sitter</a></li>
+                  <li><a href="../html/update-main-walk-dog.html">Find walk the dog sitter</a></li>
+                </ul>        
+            </li>
+            <li>
+              <a href="../html/update_article.html">News</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="btn_modal">Account</a>
+              
+
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+<div class="main">
+
+    <div class="sp-art-area">
+        <h1>Special Plan</h1>
+        <div class="sp-art">
+
+        
+                <div>
+                  <img src="../img/a1.jpeg" alt=""><a href=""> <p>Lighthouse Dog snacks on sale!</p></a>
+                </div>
+
+                <div>
+                  <img src="../img/a2.jpeg" alt=""><a href=""> <p>How to prevent dogs from being bitten by parasites in summer?</p></a></div>
+
+                <div>
+                  <img src="../img/a3.jpeg" alt=""><a href=""> <p>Look!The importance of ten dog leashes</p></a>
+                </div>
+                
+                <div>
+                  <img src="../img/a4.jpeg" alt=""><a href=""><p>Which outdoor water activities can dogs participate in?</p></a></div>
+
+                <div>
+                  <img src="../img/a5.jpeg" alt=""><a href=""> <p>Is your dog brushing? Pay attention to oral health</p></a>
+                </div>
+
+                <div><img src="../img/a6.jpeg" alt=""><a href=""> <p>How to prevent dust mites?</p></a>
+                </div>
+
+          
+        </div>
+        <h2 class="article-view">View more>></h2>
+
+    </div>
+
+    <div class="pets-cook-class01">
+        <h1 class="cooking-title">Lovely Cook</h1>
+
+        <div class="menu-1">
+
+          <div class="menu-1-1">
+            <div id="point1"></div>
+          <div class="salmon-pic"><img src="../img/s.jpeg" alt=""></div>
+          <div class="label-team-1">
+            <div class="salmon-label"><img src="../img/this.png" alt=""></div>
+            <h2>Creamy Salmon<br>Classic Dessert is Coming!</h2></div>
+
+          </div>
+          <div><h3>The above list is not exhaustive and other potential issues <br>can arise if you’re not careful about ingredients. <br>So make sure to always be aware of <br>which foods are safe for dogs.</h3>
+          
+          
+          </div>
+
+
+
+
+          <a href=""><div class="salmon-view-btn">View More >></div></a> 
+        </div>
+
+
+      
+    </div>
+    
+    <div class="pets-cook-class02">
+      <h1 class="cooking-title">Some Sweet</h1>
+      <div id="point2"></div>
+      <div class="menu-2">
+        <div class="menu-1-1">
+          
+          <div class="dc-pic"><img src="../img/looksgood.jpg" alt=""></div>
+          <div class="label-team-2">
+            <div class="dc-label"><img src="" alt=""></div>
+            <div class="sweet-group">
+            <h1>Hokkaido Pets Sweet<br>You can't miss it anymore!</h1>
+            <h4>This is a long selling confectionery <br>and is said to be the pioneer of moist baumkuchens  in Japan. <br>You can see how Sanpouroku is manufactured at its outlet shop,<br> Sweetpia Garden. The so-called 'Cut offs of Sanpouroku'.</h4>
+            </div>
+          
+          </div>
+            
+        </div>
+      
+
+
+      </div>
+
+    
+  </div>
+  <div class="pets-cook-class03">
+    <h1 class="cooking-title">Lighthouse Cook Diary</h1>
+    <div class="diary-area">
+
+      <div class="card_1 cards"><span></span><img src="../img/e01ccf78d22f99221ba9899ccccad568.jpg" alt="">
+        
+        <div class="diary-words"><h1>Homemade Luncheon</h1><h5>20/10/06</h5><h3>In this recipe, Red Yeast Rice Powder used as natural red food colouring. If you don't have this ingredient at home, you can omit. It will not affect the taste. If you want nice colour luncheon meat, you can buy this powder from baking supply shop. The size of the round tin shown in this picture is 4" with removable base, just nice for 1 recipe. </h3></div>
+      
+      </div>
+
+
+      <div class="card_2 cards"><span></span><img src="../img/cf97d1a26117049fbad78e8475c808ea.jpg" alt="">
+        <div class="diary-words">
+        <h1>Ice Summer</h1><h5>20/10/01</h5><h3>You can replace the full cream milk with soy milk, if preferred. Freeze unused ice cream in an airtight container. When ready to use, allow to soften at room temperature for 8-10 minutes before serving. Create milk ice cubes for a silkier texture by freezing whole milk in ice cube trays and replace these for the ice cubes in the recipe.</h3>
+        </div>
+        </div>
+
+      <div class="card_3 cards"><span></span><img src="../img/b0f74c81d738f45f98d727a0bbbee61c.jpg" alt="">
+        
+        <div class="diary-words">
+        <h1>Fruit Smoothie</h1><h5>20/01/22</h5><h3>In a small pot, simmer heavy cream, milk, sugar and salt until sugar completely dissolves, about 5 minutes. Remove pot from heat. In a separate bowl, whisk yolks. Whisking constantly, slowly whisk about a third of the hot cream into the yolks, then whisk the yolk mixture back into the pot with the cream. </h3>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+
+</div>
+    <div class="top" id="go_top"><i class="fas fa-caret-up fa-3x"></i><img src="../img/top.png" alt=""></div>
+
+
+    <footer class="lighthouse-footer">Copyright © Lighthouse All Rights Reserved.</footer>
+  </div>  
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/update_article.js"></script>
+
+    
+<script>
+    $('#header').prepend('<div id="menu-icon"><span class="first"></span><span class="second"></span><span class="third"></span></div>');
+	
+	$("#menu-icon").on("click", function(){
+    $("nav").slideToggle();
+    $(this).toggleClass("active");
+});
+
+
+
+
+// DOM 載入完成後執行
+    $(function(){
+      
+      // 點擊按鈕，頁面滑到最上方
+      $("#go_top").on("click", function(e){
+        e.preventDefault();
+        $('html, body').animate({
+          scrollTop: 0
+        }, 750);
+      });
+      
+    });   
+    
+    ( function($) {
+  
+  $(document).ready(function() {
+    
+    var s           = $('.slider'),
+        sWrapper    = s.find('.slider-wrapper'),
+        sItem       = s.find('.slide'),
+        btn         = s.find('.slider-link'),
+        sWidth      = sItem.width(),
+        sCount      = sItem.length,
+        slide_date  = s.find('.slide-date'),
+        slide_title = s.find('.slide-title'),
+        slide_text  = s.find('.slide-text'),
+        slide_more  = s.find('.slide-more'),
+        slide_image = s.find('.slide-image img'),
+        sTotalWidth = sCount * sWidth;
+    
+    sWrapper.css('width', sTotalWidth);
+    sWrapper.css('width', sTotalWidth);
+    
+    var clickCount  = 0;
+    
+    btn.on('click', function(e) {
+      e.preventDefault();
+
+      if( $(this).hasClass('next') ) {
+        
+        ( clickCount < ( sCount - 1 ) ) ? clickCount++ : clickCount = 0;
+      } else if ( $(this).hasClass('prev') ) {
+        
+        ( clickCount > 0 ) ? clickCount-- : ( clickCount = sCount - 1 );
+      }
+      TweenMax.to(sWrapper, 0.4, {x: '-' + ( sWidth * clickCount ) })
+
+
+      //CONTENT ANIMATIONS
+
+      var fromProperties = {autoAlpha:0, x:'-50', y:'-10'};
+      var toProperties = {autoAlpha:0.8, x:'0', y:'0'};
+
+      TweenLite.fromTo(slide_image, 1, {autoAlpha:0, y:'40'}, {autoAlpha:1, y:'0'});
+      TweenLite.fromTo(slide_date, 0.4, fromProperties, toProperties);
+      TweenLite.fromTo(slide_title, 0.6, fromProperties, toProperties);
+      TweenLite.fromTo(slide_text, 0.8, fromProperties, toProperties);
+      TweenLite.fromTo(slide_more, 1, fromProperties, toProperties);
+
+    });
+          
+  });
+})(jQuery);
+
+$('.overlay').addClass('overlay-blue');
+$(function () {
+// 開啟 Modal 彈跳視窗
+$(".btn_modal").on("click", function (e) {
+$("div.overlay").addClass("-on");
+});
+
+// 關閉 Modal
+$(".btn_modal_close").on("click", function (e) {
+$("div.overlay").addClass("-opacity-zero");
+
+// 設定隔一秒後，移除相關 class
+setTimeout(function (e) {
+  $("div.overlay").removeClass("-on -opacity-zero");
+}, 1000);
+});
+});
+
+    
+    
+    </script>
+</body>
+</html>

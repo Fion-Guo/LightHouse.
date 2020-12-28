@@ -1,0 +1,71 @@
+@import "header.css";
+/* @import "log.in-modal.css"; */
+
+  *, *:before, *:after {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin: 0;padding: 0;
+  }
+  @font-face{
+    font-family: "oriya";
+    src: url(../fonts/Oriya\ MN.ttc);
+    font-display: swap;
+
+  }
+  a{text-decoration:none;
+    color:#fff
+  }
+
+  .wrap{
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+    position: relative;
+    /* border: solid 1px #ff4000; */
+  }
+  
+
+  body{
+    /* border: solid 1px #ff4000; */
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    line-height:1.5;text-transform:none;
+    color:#fff;
+    font-family: "oriya";
+  }
+
+  img{
+    width: 400px;
+    position: absolute;
+    bottom: 20px;
+    z-index: -1;
+  }
+  .HelpCenter{
+    text-align: center;
+    font-size: 50px;
+
+  }
+  .accordion{
+    margin: 0 auto;
+    /* border: 3px solid #d0acc3; */
+    background-color: #fff;
+    width: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    color: rgb(41, 41, 41);
+   
+    
+  }
+  .helpCard{
+    padding: 10px 0;
+  }
+  .accordion-control{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #a1c4fd;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+  }
+  .accordion-panel{
+    list-style: none;
+    display: none;
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }

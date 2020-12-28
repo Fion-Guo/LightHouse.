@@ -1,0 +1,232 @@
+/* ---- RWD AREA ---- */
+
+@media screen and (max-width: 320px){
+    .area-2-word h1{
+        font-size: 30px;
+    }
+    .area-2-word h3{
+        font-size: 16px;
+        margin: 20px;
+    }
+    .f-w-1{
+        
+        width: 200px;
+        font-size: 16px;
+        background-color: rgba(32, 32, 32, 0.178);
+        color: seashell;
+
+        padding: 10px 3px;
+        letter-spacing: 3px;
+        line-height: 20px;
+    }
+    .thx-1{
+        filter: opacity(70%);
+        /* filter: blur(2px); */
+        width: 300px;
+        height: 300px;
+        
+    }
+    .f-w-2{
+        width: 300px;
+        font-size: 16px;
+        background-color: rgba(32, 32, 32, 0.178);
+        color: seashell;
+    }
+    .thx-2{
+        filter: opacity(70%);
+        /* filter: blur(2px); */
+        width: 300px;
+        height: 300px;
+    }
+
+    .register-btn{
+        font-size: 20px;
+        padding: 20px 10px;
+        background-color: #E9D098;
+        width: 200px;
+    }
+
+    .top img{
+        width: 44px;
+    }
+    .top{
+        /* border: sienna 1px solid; */
+        position: fixed;
+    }
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up{
+        width: 25px;
+        /* border: sienna 1px solid; */
+        font-size: 30px;
+        transform: translateX(-15px);
+
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 575px){
+    .area-2-word h1{
+        font-size: 30px;
+    }
+    .area-2-word h3{
+        font-size: 16px;
+        margin: 20px;
+    }
+    .f-w-1{
+        
+        width: 300px;
+        font-size: 16px;
+        background-color: rgba(32, 32, 32, 0.178);
+        color: seashell;
+
+        padding: 10px 3px;
+        letter-spacing: 3px;
+        line-height: 25px;
+        
+    }
+    .thx-1{
+        filter: opacity(70%);
+        /* filter: blur(2px); */
+        width: 500px;
+        height: 500px;
+    }
+    .f-w-2{
+        width: 300px;
+        font-size: 16px;
+        background-color: rgba(32, 32, 32, 0.178);
+        color: seashell;
+
+        padding: 10px 3px;
+        letter-spacing: 3px;
+        line-height: 25px;
+    }
+    .thx-2{
+        filter: opacity(70%);
+        /* filter: blur(2px); */
+        width: 500px;
+        height: 500px;
+    }
+    .register-btn{
+        /* display: none; */
+        font-size: 15px;
+        padding: 15px 10px !important;
+        background-color: #E9D098;
+        width: 200px !important;
+    }
+    
+    .top{
+        /* border: sienna 1px solid; */
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top img{
+        width: 44px;
+    }
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+    }
+    .fa-caret-up{
+        width: 25px;
+        /* border: sienna 1px solid; */
+        font-size: 30px;
+        transform: translateX(-15px);
+
+    }
+    .lighthouse-footer{
+        font-size: 9px;
+    }
+    
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+    /* 區域標題 */
+    .area-2-word h1{
+        font-size: 40px;
+    }
+    .area-2-word h3{
+        font-size: 16px;
+        margin: 20px;
+    }
+    /* 區域標題 */
+    
+    .f-w-1{
+        background-color: rgba(32, 32, 32, 0.178);
+        color: seashell;
+    }
+    .thx-1{
+        filter: opacity(70%);
+    }
+    .f-w-2{
+        background-color: rgba(32, 32, 32, 0.178);
+        color: seashell;
+    }
+    .thx-2{
+        filter: opacity(70%);
+    }
+
+    .register-btn{
+        /* display: none; */
+        font-size: 15px;
+        padding: 15px 10px !important;
+        background-color: #E9D098;
+        width: 200px !important;
+    }
+
+    .top{
+        /* border: sienna 1px solid; */
+        position: fixed;
+        right: 30px;
+        bottom: 20px;
+    }
+    .top img{
+        width: 44px;
+    }
+    .top i{
+        position: absolute;
+        top: -30px;
+        left: 29px;
+        }
+    .fa-caret-up{
+        width: 25px;
+        /* border: sienna 1px solid; */
+        font-size: 30px;
+        transform: translateX(-15px);
+
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .feedback{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+    }
+    .f-w-1{
+        background-color: rgba(32, 32, 32, 0.178);
+        color: seashell;
+    }
+    .thx-1{
+        filter: opacity(70%);
+    }
+    .f-w-2{
+        background-color: rgba(32, 32, 32, 0.178);
+        color: seashell;
+    }
+    .thx-2{
+        filter: opacity(70%);
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px){
+}
+
+/* ---- RWD AREA end ---- */
+
+
+
